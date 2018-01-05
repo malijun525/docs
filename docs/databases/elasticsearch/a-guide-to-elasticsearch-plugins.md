@@ -233,7 +233,7 @@ The attachment plugin lets Elasticsearch accept a base64-encoded document and in
 To begin, install the `ingest-attachment` plugin using the `elasticsearch-plugin` tool:
 
       sudo /usr/share/elasticsearch/bin/elasticsearch-plugin install ingest-attachment
-
+s
 Then restart elasticsearch. Note that the following command restarts Elasticsearch on systemd-based Linux distributions. Use the appropriate service manager for your system.
 
     sudo systemctl restart elasticsearch
